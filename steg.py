@@ -1,5 +1,6 @@
 import cv2.cv as cv
-
+class OwnException(Exception):
+    pass
 class Steg():
     def __init__(self,img_path):
         self.image = cv.LoadImage(img_path)
