@@ -3,7 +3,6 @@ Image Steganography using LSB algorithm
 
 Hides file/Image inside an image using LSB algorithm
 
-**********
 USAGE
 
 clone this repo
