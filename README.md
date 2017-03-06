@@ -1,20 +1,18 @@
 # Image-Steganography
 Image Steganography using LSB algorithm
 
-Hides file inside an image using LSB algorithm
+Hides file/Image inside an image using LSB algorithm
 
-********** Usage *************
-place steg.py in same directory
+**********
+USAGE
+
+> clone this repo
+> make this dir accessible from anywhere in linux
+> use Hide_file_into_img to hide file into image usig cmdline
+> similarly use Hide_img_into_img
+> To decode img from img Decode_img_from_img to decode text Decode_text_from_image
+
+
 
 ## IMPORTANT: Images should be of type png ##
-
-
-import steg 
-** To Hide image ***
-
-steg.HideThis(imagepath,filepath,outputimagename)
-
-** To Unhide Image ***
-
-steg.UnHide(stegimagepath,outputfilename)
 

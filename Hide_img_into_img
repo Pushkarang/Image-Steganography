@@ -1,0 +1,3 @@
+#!/bin/bash
+c='python HideImg.py $*'
+eval $c
